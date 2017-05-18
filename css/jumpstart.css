@@ -1,2 +1,35 @@
-/* Colours */
-.js-orange-peel,.js-hover-orange-peel:hover{color:#000!important;background-color:#ff9f00!important}
+.w3-bar .js-shit{
+	padding-top: 4px;
+	padding-bottom: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.js-bar-item-logo{
+    height: auto;
+    max-height: 100%;
+}
+
+.js-button:hover{
+	color:#fff!important;
+    background-color:#ffab0c!important;
+}
+
+.js-white-fg{
+	color:#fff!important
+}
+
+.js-white-bg:hover{
+    background-color:#fff!important;
+}
+
+.js-orange-peel-fg{
+	color:#ff9f00!important
+}
+
+.js-orange-peel-bg,.js-hover-orange-peel-bg:hover{
+	color:#fff!important;
+	background-color:#ff9f00!important
+}
