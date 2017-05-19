@@ -14,9 +14,9 @@
 
 .js-jumbotron-logo{
     width: 100%;
-}\
+}
 
-.js-button:hover{
+.js-white-on-faded-orange-peel:hover{
 	color:#fff!important;
     background-color:#ffab0c!important;
 }
@@ -33,7 +33,15 @@
 	color:#ff9f00!important
 }
 
+.js-orange-peel-faded-fg:hover{
+	color:#ffab0c!important
+}
+
 .js-orange-peel-bg,.js-hover-orange-peel-bg:hover{
 	color:#fff!important;
 	background-color:#ff9f00!important
+}
+
+button a {
+	text-decoration: none;
 }
