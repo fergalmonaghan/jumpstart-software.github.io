@@ -33,7 +33,7 @@ body, html {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button js-white-on-faded-orange-peel">ABOUT</a>
-      <!--<a href="#team" class="w3-bar-item w3-button js-white-on-faded-orange-peel"><i class="fa fa-user"></i> TEAM</a>-->
+      <a href="#team" class="w3-bar-item w3-button js-white-on-faded-orange-peel"><i class="fa fa-user"></i> TEAM</a>
       <!--<a href="#work" class="w3-bar-item w3-button js-white-on-faded-orange-peel"><i class="fa fa-th"></i> WORK</a>
       <a href="#pricing" class="w3-bar-item w3-button js-white-on-faded-orange-peel"><i class="fa fa-usd"></i> PRICING</a>-->
       <a href="#contact" class="w3-bar-item w3-button js-white-on-faded-orange-peel"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -50,7 +50,7 @@ body, html {
 <nav class="w3-sidebar w3-bar-block js-orange-peel-bg w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">ABOUT</a>
-  <!--<a href="#team" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">TEAM</a>-->
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">TEAM</a>
   <!--<a href="#work" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">WORK</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">PRICING</a>-->
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button js-white-on-faded-orange-peel">CONTACT</a>
@@ -122,10 +122,10 @@ body, html {
 -->
 
 <!-- Team Section -->
-<!--
+
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">Jumpstart Software Consulting is a partner in a trusted collective of sub-contractors. We can deliver as a one stop shop through this collective if your needs overlap any of our core competencies but also spill into others e.g. dashboard website, iOS or Android app development. As the sole consultant at Jumpstart, Fergal Monaghan can engage partners in the collective to fit your need:</p>
+  <p class="w3-center w3-large">Jumpstart Software Consulting is a partner in a trusted collective of sub-contractors. We can still deliver as a one stop shop through this collective if your needs overlap any of our core competencies but spill into others e.g. dashboard website, iOS or Android app development. As the sole consultant at Jumpstart, Fergal Monaghan can work intimately with you and seamlessly engage other partners in the collective as your needs demand.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
@@ -145,7 +145,6 @@ body, html {
     </div>
   </div>
 </div>
--->
 
 <!-- Promo Section "Statistics" -->
 <!--
@@ -365,6 +364,7 @@ function myMap()
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
+    streetViewControl: false,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
