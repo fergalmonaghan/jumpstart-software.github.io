@@ -7,9 +7,14 @@
     left: 0px;
 }
 
-.js-bar-item-logo{
-    height: auto;
-    max-height: 100%;
+div.w3-top div.w3-bar a {
+	height: 35px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+div.w3-top div.w3-bar a img {
+	height: 100%;
 }
 
 .js-jumbotron-logo{
