@@ -12,6 +12,10 @@
     max-height: 100%;
 }
 
+.js-jumbotron-logo{
+    width: 100%;
+}\
+
 .js-button:hover{
 	color:#fff!important;
     background-color:#ffab0c!important;
